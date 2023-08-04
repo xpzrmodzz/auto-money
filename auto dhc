@@ -1,0 +1,6 @@
+getgenv().WebhookEnabled = true -- // Discord Webhook, Notifies Owner Of Kick!
+getgenv().WebhookLink = "https://discord.com/api/webhooks/1137005576841351179/gijNOebQI-_6c77-7Qqeo3jfYfzEmaKjHm_TCWi-xpLR8ld6ZiWNvuLYR1hVbvS_NCzG" -- // Set To Webhook
+getgenv().AutoRejoin = false -- // Rejoins After Being Kicked!
+getgenv().SetFPSCap = true -- // Saves CPU Much More!
+
+loadstring(game:HttpGetAsync("https://polarsblade.xyz/Arctic/BetterFarm.txt"))()
